@@ -1,6 +1,6 @@
 # fancy-text
 
-A very simple shortcode extension that adds shortcodes for outputing nicely formatted versions of fancy strings (such as LaTeX and BibLaTeX). 
+A very simple shortcode extension that adds shortcodes for outputing nicely formatted versions of fancy strings (such as LaTeX and BibTeX). Outputs fancy strings in HTML and LaTeX, just emits simple strings of the correct case in other formats. 
 
 ## Installation
 
@@ -16,5 +16,5 @@ Currently, this extension supports:
 
 ```
 {{< latex >}}
-{{< biblatex >}}
+{{< bibtex >}}
 ```
