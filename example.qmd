@@ -1,0 +1,12 @@
+---
+title: "Fancy Text Example"
+format:
+   html: default
+   pdf: default
+---
+
+Fancy {{< latex >}}
+
+Fancy {{< bibtex >}}
+
+
