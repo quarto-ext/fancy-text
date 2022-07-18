@@ -12,27 +12,24 @@ This will install the extension under the `_extensions` subdirectory. If you're 
 
 ## Usage
 
-Use shortcodes to get format specific fancy text for certain keywords. Currently, this extension supports:
+Use shortcodes to get format specific fancy text for certain keywords or format styles. Currently, this extension supports:
 
 ```
 {{< latex >}}
 {{< bibtex >}}
+{{< smallcaps aword >}}
 ```
 
 For example:
 
 ```markdown
 ## Overview of {{< latex >}}
-
 ```
 
-Produces:
-
-
-| pdf | html |
-|---|---|
-| ![Screen Shot 2022-07-06 at 3 47 17 PM](https://user-images.githubusercontent.com/261654/177630954-bc3e17f1-3bbe-4f35-9a2c-7aae67015f89.png) | ![Screen Shot 2022-07-06 at 3 47 10 PM](https://user-images.githubusercontent.com/261654/177630933-d3d8b819-a564-4fbb-9fce-93fa4236a7f1.png) |
-
+You can view the example document as
+- HTML <https://quarto-ext.github.io/fancy-text/>
+- PDF <https://quarto-ext.github.io/fancy-text/example.pdf>
+- DOCX <https://quarto-ext.github.io/fancy-text/example.docx>
 
 
 
