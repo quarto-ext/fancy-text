@@ -12,3 +12,5 @@ LaTeX can be written like {{< latex >}}.
 
 BibTeX can be written like {{< bibtex >}}.
 
+Various elipses are supported: {{< ldots >}}, {{< vdots >}}, {{< ddots >}}
+
