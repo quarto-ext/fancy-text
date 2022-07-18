@@ -26,6 +26,6 @@ function smallcaps(el)
   elseif quarto.doc.isFormat("html") then
     return pandoc.RawBlock('html', '<span style="font-variant: small-caps;">' .. pandoc.utils.stringify(el) .. '</span>')
   else
-    return el
+    return pandoc.utils.stringify(el)
   end
 end
