@@ -18,6 +18,9 @@ Use shortcodes to get format specific fancy text for certain keywords or format 
 {{< latex >}}
 {{< bibtex >}}
 {{< smallcaps aword >}}
+{{< ldots >}}
+{{< vdots >}}
+{{< ddots >}}
 ```
 
 For example:
