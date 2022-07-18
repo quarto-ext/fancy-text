@@ -1,12 +1,14 @@
 ---
 title: "Fancy Text Example"
-format:
-   html: default
-   pdf: default
+format: 
+  html: default
+  pdf: default
+  docx: default
 ---
 
-Fancy {{< latex >}}
+This is a fancy text example, {{< smallcaps this >}} will be printed in {{< smallcaps smallcaps >}}.
 
-Fancy {{< bibtex >}}
+LaTeX can be written like {{< latex >}}.
 
+BibTeX can be written like {{< bibtex >}}.
 
