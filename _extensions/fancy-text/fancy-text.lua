@@ -20,16 +20,6 @@ function bibtex()
   end
 end
 
-function smallcaps(el)
-  if quarto.doc.isFormat("pdf") then
-    return pandoc.RawBlock('tex', '\\textsc{' .. pandoc.utils.stringify(el) .. '}')
-  elseif quarto.doc.isFormat("html") then
-    return pandoc.RawBlock('html', '<span style="font-variant: small-caps;">' .. pandoc.utils.stringify(el) .. '</span>')
-  else
-    return pandoc.utils.stringify(el)
-  end
-end
-
 function ldots()
   if quarto.doc.isFormat("pdf") then
     return pandoc.RawBlock('tex', '\\ldots')

@@ -6,8 +6,6 @@ format:
   docx: default
 ---
 
-This is a fancy text example, {{< smallcaps this >}} will be printed in {{< smallcaps smallcaps >}}.
-
 LaTeX can be written like {{< latex >}}.
 
 BibTeX can be written like {{< bibtex >}}.
