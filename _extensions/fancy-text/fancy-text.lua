@@ -8,6 +8,16 @@ function latex()
     return pandoc.Span('LaTeX')
   end
 end
+
+function tex() 
+  if quarto.doc.isFormat("pdf") then
+    return pandoc.RawBlock('tex', '{\\TeX}')
+  elseif quarto.doc.isFormat("html") then
+    return pandoc.Math('InlineMath', "\\TeX")
+  else 
+    return pandoc.Span('TeX')
+  end
+end
   
 -- shortcode that provides a nicely formatted 'bibtex' string
 function bibtex()
@@ -32,7 +42,7 @@ end
 
 function vdots()
   if quarto.doc.isFormat("pdf") then
-    return pandoc.RawBlock('tex', '\\vdots')
+    return pandoc.Math('InlineMath', "\\vdots")
   elseif quarto.doc.isFormat("html") then
     return pandoc.RawBlock('html', '&#8942;')
   else
@@ -42,7 +52,7 @@ end
 
 function ddots() 
   if quarto.doc.isFormat("pdf") then
-    return pandoc.RawBlock('tex', '\\ddots')
+    return pandoc.Math('InlineMath', "\\ddots")
   elseif quarto.doc.isFormat("html") then
     return pandoc.RawBlock('html', '&#8945;')
   else

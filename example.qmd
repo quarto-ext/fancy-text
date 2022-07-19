@@ -10,5 +10,7 @@ LaTeX can be written like {{< latex >}}.
 
 BibTeX can be written like {{< bibtex >}}.
 
+TeX can be written like {{< tex >}}.
+
 Various elipses are supported: {{< ldots >}}, {{< vdots >}}, {{< ddots >}}
 
