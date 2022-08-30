@@ -59,3 +59,12 @@ function ddots()
     return "..."
   end
 end
+
+function pct()
+  local pct
+  if quarto.doc.isFormat("pdf") then
+    return pandoc.Math('InlineMath', '\\%')
+  else 
+    return pandoc.Str("%")
+  end
+end
