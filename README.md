@@ -21,6 +21,7 @@ Use shortcodes to get format specific fancy text for certain keywords or format 
 {{< ldots >}}
 {{< vdots >}}
 {{< ddots >}}
+{{< r2 >}}
 ```
 
 For example:
