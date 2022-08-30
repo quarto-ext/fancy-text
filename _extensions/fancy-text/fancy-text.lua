@@ -59,3 +59,11 @@ function ddots()
     return "..."
   end
 end
+ 
+function r2() 
+  if quarto.doc.isFormat("pdf") then
+    return pandoc.Math('InlineMath', "R^2")
+  else
+    return {pandoc.Str("R"), pandoc.Superscript("2")} 
+  end
+end

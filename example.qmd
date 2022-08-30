@@ -4,6 +4,7 @@ format:
   html: default
   pdf: default
   docx: default
+keep-tex: true
 ---
 
 LaTeX can be written like {{< latex >}}.
@@ -13,4 +14,6 @@ BibTeX can be written like {{< bibtex >}}.
 TeX can be written like {{< tex >}}.
 
 Various elipses are supported: {{< ldots >}}, {{< vdots >}}, {{< ddots >}}
+
+Formatting R^2^ using Math for PDF: {{< r2 >}}
 
