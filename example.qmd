@@ -4,7 +4,6 @@ format:
   html: default
   pdf: default
   docx: default
-keep-tex: true
 ---
 
 LaTeX can be written like {{< latex >}}.
