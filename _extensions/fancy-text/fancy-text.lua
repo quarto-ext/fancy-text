@@ -60,7 +60,7 @@ function ddots()
   end
 end
  
-function r2() 
+function R2() 
   if quarto.doc.isFormat("pdf") then
     return pandoc.Math('InlineMath', "R^2")
   else
