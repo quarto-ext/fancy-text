@@ -14,5 +14,7 @@ TeX can be written like {{< tex >}}.
 
 Various elipses are supported: {{< ldots >}}, {{< vdots >}}, {{< ddots >}}
 
+% can be written in math in LaTeX with : {{< pct >}}, like 10{{< pct >}} 
+
 Formatting R^2^ using Math for PDF: {{< R2 >}}
 
