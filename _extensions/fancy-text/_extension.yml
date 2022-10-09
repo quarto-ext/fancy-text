@@ -1,6 +1,7 @@
 title: Fancy Text
 author: RStudio, PBC
-version: 1.0.4
+version: 1.1.0
+quarto-required: ">=1.2.198"
 contributes:
   shortcodes:
     - fancy-text.lua
