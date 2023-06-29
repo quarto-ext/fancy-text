@@ -5,7 +5,7 @@ A very simple shortcode extension that adds shortcodes for outputing nicely form
 ## Installation
 
 ```
-$ quarto install extension quarto-ext/fancy-text
+$ quarto add quarto-ext/fancy-text
 ```
 
 This will install the extension under the `_extensions` subdirectory. If you're using version control, you will want to check in this directory.
